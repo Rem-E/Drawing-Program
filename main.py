@@ -44,6 +44,8 @@ def quit_program():
 	turtle.bye()
 
 
+
+
 # Toggle Pen up or down
 
 up = False
@@ -71,6 +73,9 @@ def color_blue():
 def color_red():
 	cursor.color("red")
 
+def color_yellow():
+	cursor.color("yellow")
+
 # Keyboard Bindings 
 
 wn.listen()
@@ -83,6 +88,7 @@ wn.onkeypress(color_white, "1")
 wn.onkeypress(color_green, "2")
 wn.onkeypress(color_blue, "3")
 wn.onkeypress(color_red, "4")
+wn.onkeypress(color_yellow, "5")
 wn.onkeypress(pen_up, "e")
 
 
